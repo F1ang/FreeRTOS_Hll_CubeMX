@@ -1,0 +1,28 @@
+#ifndef POWER_LL_H
+#define POWER_LL_H
+
+#include "main.h"
+#include "gpio.h"
+
+/*24V*/
+#define POWER1_CTRL_ON   LL_GPIO_SetOutputPin(GPIOH, LL_GPIO_PIN_2)
+#define POWER2_CTRL_ON	 LL_GPIO_SetOutputPin(GPIOH, LL_GPIO_PIN_3)
+#define POWER3_CTRL_ON	 LL_GPIO_SetOutputPin(GPIOH, LL_GPIO_PIN_4)
+#define POWER4_CTRL_ON	 LL_GPIO_SetOutputPin(GPIOH, LL_GPIO_PIN_5)
+
+#define POWER1_CTRL_OFF LL_GPIO_ResetOutputPin(GPIOH, LL_GPIO_PIN_2)
+#define POWER2_CTRL_OFF LL_GPIO_ResetOutputPin(GPIOH, LL_GPIO_PIN_3)
+#define POWER3_CTRL_OFF LL_GPIO_ResetOutputPin(GPIOH, LL_GPIO_PIN_4)
+#define POWER4_CTRL_OFF LL_GPIO_ResetOutputPin(GPIOH, LL_GPIO_PIN_5)
+
+
+
+void Power_Ctrl_Init(void);
+
+
+
+#endif
+
+
+
+

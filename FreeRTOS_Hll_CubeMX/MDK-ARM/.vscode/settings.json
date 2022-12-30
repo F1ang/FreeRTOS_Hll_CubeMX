@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "usartx_ll.h": "c",
+        "hardware_ll.h": "c",
+        "stdio.h": "c",
+        "timx_ll.h": "c",
+        "canx_ll.h": "c",
+        "usart.h": "c",
+        "base_init.h": "c",
+        "led.h": "c",
+        "imu.h": "c",
+        "mpu6500.h": "c"
+    }
+}
